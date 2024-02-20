@@ -101,4 +101,16 @@
     gap: 0;
     padding: 0;
   }
+
+  .DL__button {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    border-radius: 90%;
+    padding: 8px;
+    margin-bottom: 10px;
+  }
+  a {
+    align-self: center;
+  }
 }
