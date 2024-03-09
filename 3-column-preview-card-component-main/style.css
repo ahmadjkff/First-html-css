@@ -15,8 +15,7 @@
 .suvs,
 .luxry,
 .luxry-disc {
-  padding-left: 40px;
-  padding-right: 40px;
+  padding: 0 40px;
 }
 
 .sedans,
@@ -45,6 +44,8 @@
   background-color: hsl(0, 0%, 95%);
   cursor: pointer;
   margin-bottom: 40px;
+  border: 0.1rem solid white;
+  transition: 0.3s;
 }
 
 .container {
@@ -75,6 +76,11 @@
   color: hsl(31, 77%, 52%);
 }
 
+.sedans-button:hover {
+  background-color: hsl(31, 77%, 52%);
+  color: white;
+}
+
 /* ------------------------------------------------suvs---------------------------------------------- */
 .suvs-container {
   background-color: hsl(184, 100%, 22%);
@@ -85,6 +91,11 @@
   color: hsl(184, 100%, 22%);
 }
 
+.suvs-button:hover {
+  background-color: hsl(184, 100%, 22%);
+  color: white;
+}
+
 /* -----------------------------------------------------luxry-------------------------------------------------- */
 
 .luxry-container {
@@ -93,6 +104,11 @@
 
 .luxry-button {
   color: hsl(179, 100%, 13%);
+}
+
+.luxry-button:hover {
+  background-color: hsl(179, 100%, 13%);
+  color: white;
 }
 
 @media (max-width: 500px) {
